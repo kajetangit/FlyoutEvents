@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="FlyoutEvents.Pages.MainPage">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Bla"
+                     IconImageSource="sparks.png">
+            <VerticalStackLayout Margin="8" Spacing="12">
+                <Label Text="Flyout" FontAttributes="Bold"></Label>
+                <Button Text="Current Time" Command="{Binding PublishEventCommand}" />
+                <Label Text="{Binding CurrentTime}"></Label>
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>
