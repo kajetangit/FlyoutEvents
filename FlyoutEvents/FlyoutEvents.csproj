@@ -67,7 +67,7 @@
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)"/>
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-rc.2.24473.5"/>
         <PackageReference Include="Prism.DryIoc.Maui" Version="9.0.537" />
-        <PackageReference Include="Shiny.Mediator.Maui" Version="4.4.0-beta-0014" />
+        <PackageReference Include="Shiny.Mediator.Maui" Version="4.4.0-beta-0018" />
     </ItemGroup>
 
     <ItemGroup>
