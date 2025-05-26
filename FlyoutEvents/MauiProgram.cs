@@ -32,8 +32,6 @@ public static class MauiProgram
         builder.Services.RegisterForNavigation<SecondPage, SecondViewModel>();
 
         builder.Services.AddShinyMediator(x => { x.UseMaui(); });
-        builder.Services.AddSingletonAsImplementedInterfaces<SecondViewModel>();
-        
 
 #if DEBUG
         builder.Logging.AddDebug();
